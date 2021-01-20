@@ -43,6 +43,29 @@ p
     margin: 5%;
 }
 
+ul 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: left;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+li 
+{
+	list-style: none;
+	padding: 10px 20px;
+    font-family: 'Maven Pro', sans-serif;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+    transition: all 0.5s ease;
+    min-width: 100%;
+    word-wrap: break-word;
+}
+
 .tags
 {
     display: flex;
@@ -53,8 +76,6 @@ p
 {
     min-width: 20%;
     border-radius: 5px;
-    color: black;
-    background-color: white;
     transition: all 0.75s ease;
     font-family: 'Maven Pro', sans-serif;
     margin: 5px;
