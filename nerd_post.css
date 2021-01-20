@@ -20,6 +20,12 @@ p
     font-size: 24px;
 }
 
+p2
+{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+}
+
 .navbar
 {
     display: flex;
