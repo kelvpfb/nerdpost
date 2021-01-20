@@ -94,6 +94,16 @@ li
     background-color: #17BE94;
 }
 
+.title
+{
+    text-align: center;
+}
+
+.article
+{
+    padding: 2%;
+}
+
 .about
 {
     display: flex;
