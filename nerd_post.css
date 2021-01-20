@@ -36,6 +36,31 @@ p
     align-items: center;
 }
 
+.blog
+{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.tags
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.button
+{
+    min-width: 20%;
+	border-radius: 5px;
+	color: #f6f7cd;
+	background-color: #264e2c;
+    transition: all 0.75s ease;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
 .about
 {
     display: flex;
