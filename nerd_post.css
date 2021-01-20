@@ -53,12 +53,17 @@ p
 {
     min-width: 20%;
     border-radius: 5px;
-    color: #f6f7cd;
-    background-color: #264e2c;
+    color: black;
+    background-color: white;
     transition: all 0.75s ease;
     font-family: 'Maven Pro', sans-serif;
     margin: 5px;
     padding: 5px;
+}
+
+.button:hover
+{
+    background-color: #17BE94;
 }
 
 .about
