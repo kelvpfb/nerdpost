@@ -57,12 +57,6 @@ p
     border: 4px black solid;
 }
 
-a:hover
-{
-    color: #17BE94;
-    transition: all 0.5s ease;
-}
-
 a:link
 {
     text-decoration: none;
@@ -73,6 +67,12 @@ a:visited
 {
     text-decoration: none;
     color: black;
+}
+
+a:hover
+{
+    color: #17BE94;
+    transition: all 0.5s ease;
 }
 
 #icon:hover
