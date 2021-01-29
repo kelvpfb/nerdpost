@@ -62,7 +62,7 @@ ul
     justify-content: center; 
     text-align: left;
     margin-top: 2%;
-    margin-right: 5%;
+    margin-right: 2%;
     text-decoration: none;
 }
 
@@ -83,6 +83,7 @@ li
 {
     display: flex;
     flex-direction: column;
+    margin-right: 3%;
 }
 
 .button
