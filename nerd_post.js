@@ -1,11 +1,17 @@
 function showAll()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
     {
         li[i].style.display = "";
+        j++;
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "#17BE94";
     document.getElementById("tvB").style.backgroundColor = "";
@@ -19,6 +25,7 @@ function showAll()
 function showTV()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -26,11 +33,16 @@ function showTV()
         if ($(li[i]).hasClass("tv"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "#17BE94";
@@ -44,6 +56,7 @@ function showTV()
 function showGaming()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -51,11 +64,16 @@ function showGaming()
         if ($(li[i]).hasClass("gaming"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "";
@@ -69,6 +87,7 @@ function showGaming()
 function showHorror()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -76,11 +95,16 @@ function showHorror()
         if ($(li[i]).hasClass("horror"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "";
@@ -94,6 +118,7 @@ function showHorror()
 function showFantasy()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -101,11 +126,16 @@ function showFantasy()
         if ($(li[i]).hasClass("fantasy"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "";
@@ -119,6 +149,7 @@ function showFantasy()
 function showSciFi()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -126,11 +157,16 @@ function showSciFi()
         if ($(li[i]).hasClass("scifi"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "";
@@ -144,6 +180,7 @@ function showSciFi()
 function showTabletop()
 {
     var i;
+    var j = 0;
     list = document.getElementById("list");
     li = list.getElementsByTagName("li");
     for (i = 0; i < li.length; i++)
@@ -151,11 +188,16 @@ function showTabletop()
         if ($(li[i]).hasClass("tabletop"))
         {
             li[i].style.display = "";
+            j++;
         }
         else
         {
             li[i].style.display = "none";
         }
+    }
+    if (j == 0)
+    {
+        alert("I'm writing articles on this topic, but in the meantime, check out the other categories!");
     }
     document.getElementById("allB").style.backgroundColor = "";
     document.getElementById("tvB").style.backgroundColor = "";
