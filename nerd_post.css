@@ -55,12 +55,6 @@ p2
     max-width: 80%;
 }
 
-.spacer
-{
-    min-width: 3%;
-    max-width: 3%;
-}
-
 ul 
 {
     display: flex;
@@ -68,7 +62,7 @@ ul
     justify-content: center; 
     text-align: left;
     margin-top: 2%;
-    margin-right: 2%;
+    margin-right: 5%;
     text-decoration: none;
 }
 
