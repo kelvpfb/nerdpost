@@ -55,6 +55,12 @@ p2
     max-width: 80%;
 }
 
+.spacer
+{
+    min-width: 3%;
+    max-width: 3%;
+}
+
 ul 
 {
     display: flex;
