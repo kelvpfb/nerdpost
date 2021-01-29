@@ -49,6 +49,12 @@ p2
     margin: 5%;
 }
 
+.display
+{
+    min-width: 75%;
+    max-width: 75%;
+}
+
 ul 
 {
     display: flex;
