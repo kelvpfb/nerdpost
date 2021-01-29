@@ -6,6 +6,7 @@
     <link   rel="stylesheet" 
                 type="text/css"
                 href="nerd_post.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <meta   name="viewport"
             content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -22,7 +23,7 @@
     </div>
     <div class="blog">
         <ul id="list">
-            <li id="gaming">
+            <li class="gaming">
                 <a href="articles/skyrim"><p>Skyrim, Player Agency, and Existential Dread</p></a>
                 <br>
                 <p2>Like many college students in the wake of COVID I recently found myself rightfully
@@ -35,13 +36,15 @@
             </li>
         </ul>
         <div class="tags">
-            <div class="button">All</div>
-            <div class="button">TV</div>
-            <div class="button">Gaming</div>
-            <div class="button">Horror</div>
-            <div class="button">Fantasy</div>
-            <div class="button">Science Fiction</div>
-            <div class="button">Tabletop Roleplaying</div>
+            <div class="button" id="allB" onclick="showAll()">All</div>
+            <div class="button" id="tvB" onclick="showTV()">TV</div>
+            <div class="button" id="gamingB" onclick="showGaming()">Gaming</div>
+            <div class="button" id="horrorB" onclick="showHorror()">Horror</div>
+            <div class="button" id="fantasyB" onclick="showFantasy()">Fantasy</div>
+            <div class="button" id="scifiB" onclick="showSciFi()">Science Fiction</div>
+            <div class="button" id="tabletopB" onclick="showTabletop()">Tabletop Roleplaying</div>
         </div>
     </div>
+
+    <script src="nerd_post.js"> </script>
 </body>
