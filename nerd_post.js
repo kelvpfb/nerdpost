@@ -207,20 +207,3 @@ function showTabletop()
     document.getElementById("scifiB").style.backgroundColor = "";
     document.getElementById("tabletopB").style.backgroundColor = "#17BE94";
 }
-
-function readThree()
-{
-    var children = document.getElementById("list").children;                
-    var childrenLength = children.length;
-
-    var firstChild = children[0];
-    var findFirstTitle;
-    var findFirstTitleStart = firstChild.split("<p>");
-    findFirstTitle = findFirstTitleStart[1];
-    var findFirstTitleEnd = findFirstTitle.split("</p>");
-    findFirstTitle = findFirstTitleEnd[0];
-    console.log(findFirstTitle);
-
-    var secondChild = children[1];
-    var thirdChild = children[2];
-}
