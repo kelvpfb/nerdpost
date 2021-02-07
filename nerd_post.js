@@ -212,5 +212,5 @@ function readThree()
 {
     var children = document.getElementById("list").children;                
     var childrenLength = children.length;
-    console.log(childrenLength);
+    console.log(children[0]);
 }
