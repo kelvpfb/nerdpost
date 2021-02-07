@@ -92,6 +92,12 @@ li
     flex-direction: row;
 }
 
+.preview-image
+{
+    width: 20%;
+    height: auto;
+}
+
 .preview-text
 {
     display: flex;
@@ -104,8 +110,8 @@ li
     display: flex;
     flex-direction: column;
     text-align: right;
-    min-width: 10%;
-    max-width: 10%;
+    min-width: 20%;
+    max-width: 20%;
 }
 
 .button
