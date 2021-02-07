@@ -142,6 +142,20 @@ li
     padding-right: 12%;
 }
 
+.side-image
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.side-image img
+{
+    width: 40%;
+    height: auto;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .about
 {
     display: flex;
