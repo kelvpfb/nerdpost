@@ -207,3 +207,10 @@ function showTabletop()
     document.getElementById("scifiB").style.backgroundColor = "";
     document.getElementById("tabletopB").style.backgroundColor = "#17BE94";
 }
+
+function readThree()
+{
+    var children = document.getElementById("list").children;                
+    var childrenLength = children.length;
+    console.log(childrenLength);
+}
