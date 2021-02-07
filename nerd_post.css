@@ -85,11 +85,22 @@ li
     text-decoration: none;
 }
 
+.preview
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.preview-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
 .tags
 {
     display: flex;
     flex-direction: column;
-    margin-right: 3%;
     text-align: right;
 }
 
