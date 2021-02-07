@@ -150,8 +150,8 @@ li
 
 .side-image img
 {
-    height: 100%;
-    width: auto;
+    width: 40%;
+    height: auto;
     padding-left: 3%;
     padding-right: 3%;
 }
