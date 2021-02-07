@@ -27,8 +27,16 @@
         <div class="article"><p2>
             <!-- Copy all of the text of your article into this section. 
                 After every paragraph, type <br><br>. This creates spaces between them.
-                Wherever you want an image, type <img src="../images/[filename].[filetype]" width=100%><br><br>
-                Make sure you are doing so after the <br><br> of a paragraph so it is on it's own line.
+
+                If you want an image to be the width of the article, type the following after the <br><br> of the article you want it to follow:
+                <img src="../images/[filename].[filetype]" width=100%><br><br>
+
+                If you want an image to be in line with a paragraph, put this code around the paragraph:
+                <div class="side-image">
+                    [paragraph]
+                    <img src="../images/[filename].[filetype]">
+                </div><br><br>
+
                 For this line of code to access your image, you must upload the image into the "images" file first.
                 If you put it in a subfolder of the images folder, instead type ../images/[subfolder]/[filename].[filetype] inside the quotation marks. 
             -->
