@@ -48,6 +48,27 @@ p3
     align-items: center;
 }
 
+.last-three
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.recent
+{
+	padding: 10px 10px;
+    font-family: 'Maven Pro', sans-serif;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin-bottom: 10px;
+    min-width: 30%;
+    word-wrap: break-word;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
 .blog
 {
     display: flex;
