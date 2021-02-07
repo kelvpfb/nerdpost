@@ -69,6 +69,12 @@ p3
     flex-direction: column;
 }
 
+.recent img
+{
+    width: 25%;
+    height: auto;
+}
+
 .blog
 {
     display: flex;
