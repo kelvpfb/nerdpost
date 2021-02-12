@@ -267,5 +267,6 @@ a:hover
     #round
     {
         width: 80%;
+        align-items: center;
     }
 }
