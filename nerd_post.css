@@ -252,6 +252,7 @@ a:hover
     .tags
     {
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .about
@@ -267,6 +268,5 @@ a:hover
     #round
     {
         width: 80%;
-        align-items: center;
     }
 }
