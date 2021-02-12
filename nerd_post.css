@@ -249,6 +249,17 @@ a:hover
         flex-direction: column-reverse;
     }
 
+    .preview
+    {
+        flex-direction: column;
+    }
+
+    .preview img
+    {
+        width: 100%;
+        height: 100%;
+    }
+
     .tags
     {
         flex-direction: row;
