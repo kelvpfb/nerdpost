@@ -244,6 +244,16 @@ a:hover
         justify-content: center;
     }
 
+    .blog
+    {
+        flex-direction: column-reverse;
+    }
+
+    .tags
+    {
+        flex-direction: row;
+    }
+
     .about
     {
         flex-direction: column;
