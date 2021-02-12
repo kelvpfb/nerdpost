@@ -243,4 +243,14 @@ a:hover
     {
         flex-direction: column;
     }
+
+    h2 
+    {
+        font-size: 24px;
+    }
+
+    #round
+    {
+        width: 80%;
+    }
 }
