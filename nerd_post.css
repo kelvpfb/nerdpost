@@ -179,7 +179,7 @@ li
     flex-direction: row;
 }
 
-.side-image img
+.image
 {
     width: 40%;
     height: 40%;
@@ -224,21 +224,6 @@ a:hover
 {
     color: #17BE94;
     transition: all 0.5s ease;
-}
-
-a.image:link
-{
-
-}
-
-a.image:visited
-{
-
-}
-
-a.image:hover
-{
-    
 }
 
 #icon:hover
