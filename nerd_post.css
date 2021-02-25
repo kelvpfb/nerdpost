@@ -182,7 +182,7 @@ li
 .image
 {
     width: 40%;
-    height: 40%;
+    max-width: 40%;
     padding-left: 3%;
     padding-right: 3%;
 }
