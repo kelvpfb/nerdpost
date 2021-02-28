@@ -238,7 +238,7 @@ a:hover
     transition: all 0.5s ease;
 }
 
-@media screen and (max-width: 900px) 
+@media screen and (max-width: 800px) 
 {
     .navbar
     {
@@ -258,6 +258,7 @@ a:hover
     .preview
     {
         flex-direction: column;
+        margin: 2%;
     }
 
     .preview img
@@ -287,5 +288,16 @@ a:hover
     #round
     {
         width: 80%;
+    }
+
+    .article
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .side-image
+    {
+        flex-direction: column;
     }
 }
