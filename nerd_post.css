@@ -48,13 +48,13 @@ p3
     align-items: center;
 }
 
-.desktop
+.desktop img
 {
     visibility: visible;
     max-height: auto;
 }
 
-.mobile
+.mobile img
 {
     visibility: hidden;
     max-height: 0px;
@@ -262,13 +262,13 @@ a:hover
         justify-content: center;
     }
 
-    .desktop
+    .desktop img
     {
         visibility: hidden;
         max-height: 0px;
     }
 
-    .mobile
+    .mobile img
     {
         visibility: visible;
         max-height: auto;
