@@ -273,6 +273,8 @@ a:hover
     .last-three
     {
         flex-direction: column;
+        min-width: 90%;
+        max-width: 90%;
     }
 
     .blog
