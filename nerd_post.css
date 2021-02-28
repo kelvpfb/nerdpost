@@ -271,6 +271,7 @@ a:hover
     .mobile img
     {
         visibility: visible;
+        max-width: 100%;
         max-height: auto;
     }
 
