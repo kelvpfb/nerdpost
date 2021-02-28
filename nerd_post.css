@@ -286,6 +286,12 @@ a:hover
         flex-direction: column-reverse;
     }
 
+    .display
+    {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
     .preview
     {
         flex-direction: column;
@@ -301,8 +307,8 @@ a:hover
     {
         flex-direction: row;
         flex-wrap: wrap;
-        min-width: 30%;
-        max-width: 30%;
+        min-width: 80%;
+        max-width: 80%;
     }
 
     .about
