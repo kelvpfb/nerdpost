@@ -48,6 +48,16 @@ p3
     align-items: center;
 }
 
+.desktop
+{
+    visibility: visible;
+}
+
+.mobile
+{
+    visibility: hidden;
+}
+
 .last-three
 {
     display: flex;
@@ -248,6 +258,16 @@ a:hover
     .navright
     {
         justify-content: center;
+    }
+
+    .desktop
+    {
+        visibility: hidden;
+    }
+
+    .mobile
+    {
+        visibility: visible;
     }
 
     .blog
