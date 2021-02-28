@@ -270,6 +270,11 @@ a:hover
         visibility: visible;
     }
 
+    .last-three
+    {
+        flex-direction: column;
+    }
+
     .blog
     {
         flex-direction: column-reverse;
