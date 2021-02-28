@@ -325,4 +325,9 @@ a:hover
     {
         flex-direction: column;
     }
+
+    .image
+    {
+        height: auto;
+    }
 }
