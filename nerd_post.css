@@ -311,6 +311,7 @@ a:hover
         min-width: 100%;
         max-width: 100%;
         justify-content: center;
+        text-align: center;
     }
 
     .about
