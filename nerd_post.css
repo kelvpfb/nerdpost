@@ -289,8 +289,8 @@ a:hover
 
     .display
     {
-        max-width: 90%;
-        min-width: 90%;
+        max-width: 100%;
+        min-width: 100%;
     }
 
     .preview
