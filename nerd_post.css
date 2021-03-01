@@ -306,6 +306,11 @@ a:hover
         height: auto;
     }
 
+    .preview-text
+    {
+        padding-left: 0;
+    }
+
     .tags
     {
         flex-direction: row;
