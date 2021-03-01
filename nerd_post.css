@@ -296,6 +296,12 @@ a:hover
         min-width: 100%;
     }
 
+    ul
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     .preview
     {
         flex-direction: column;
