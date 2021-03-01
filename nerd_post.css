@@ -159,6 +159,7 @@ li
 .button
 {
     min-width: 20%;
+    max-width: 20%;
     border-radius: 5px;
     font-family: 'Maven Pro', sans-serif;
     margin: 5px;
